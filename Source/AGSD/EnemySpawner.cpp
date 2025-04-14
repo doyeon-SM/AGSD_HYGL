@@ -74,28 +74,28 @@ void AEnemySpawner::Tick(float DeltaTime)
             //50초 마다 패턴 변화
             else if (TotalTime >= 250.0f)
             {
-                SpawnNum = 13;
+                SpawnNum = 30;
             }
             else if (TotalTime >= 200.0f)
             {
-                SpawnNum = 11;
+                SpawnNum = 30;
             }
             else if (TotalTime >= 150.0f)
             {
-                SpawnNum = 9;
+                SpawnNum = 30;
             }
             else if (TotalTime >= 100.0f)
             {
-                SpawnNum = 7;
+                SpawnNum = 30;
             }
             else if (TotalTime >= 50.0f)
             {
-                SpawnNum = 5;
+                SpawnNum = 30;
             }
             else
             {
                 SpawnTime = 10.0f;
-                SpawnNum = 3;
+                SpawnNum = 30;
             }
         }
         if (TempTime >= SpawnTime)
