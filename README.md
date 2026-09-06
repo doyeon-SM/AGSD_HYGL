@@ -137,9 +137,15 @@ flowchart LR
 
 ## 실행 및 빌드
 
-- 완성 빌드는 [Steam 상점](https://store.steampowered.com/app/3991210/Survive_From_Museum/)에서 설치해 플레이할 수 있습니다.
-- 현재 공개 저장소에는 README만 있으며 Unreal Engine 프로젝트 소스와 패키징 빌드는 포함되어 있지 않습니다.
-- 실제 플레이는 [플레이 영상](https://youtu.be/tjT9lYLo7KM), 구현 근거와 개발 기록은 [Notion 상세 페이지](https://app.notion.com/p/294f1fce5d1682988e79815ab13ad574)에서 확인할 수 있습니다.
+```bash
+git clone https://github.com/doyeon-SM/AGSD_HYGL.git
+```
+
+1. Unreal Engine **5.3** 환경에서 `AGSD.uproject`를 엽니다.
+2. 에셋과 플러그인 의존성 로딩이 끝난 뒤 프로젝트 설정과 시작 맵을 확인합니다.
+3. 저장소에는 Unreal Engine 프로젝트 소스와 `Content`가 포함되어 있어 최초 복제와 임포트에 시간이 걸릴 수 있습니다.
+
+완성 빌드는 [Steam 상점](https://store.steampowered.com/app/3991210/Survive_From_Museum/)에서 설치해 플레이할 수 있습니다. 실제 플레이는 [플레이 영상](https://youtu.be/tjT9lYLo7KM), 구현 근거와 개발 기록은 [Notion 상세 페이지](https://app.notion.com/p/294f1fce5d1682988e79815ab13ad574)에서 확인할 수 있습니다.
 
 ## 한계와 배운 점
 
